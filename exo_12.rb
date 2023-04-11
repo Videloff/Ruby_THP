@@ -1,5 +1,5 @@
 puts "Quel âge as-tu ?"
-user_age = gets.chomp.to_i # 32 ans
+user_age = gets.chomp.to_i
 puts "-----"
 age = user_age
 x = age
