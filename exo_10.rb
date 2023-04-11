@@ -13,7 +13,7 @@ else
     val = 2023 - user_year - 1
     if (user_year <= 2021)
         (val-1).times do |i| 
-            user_year = user_year + 1
+            user_year += 1
             puts "En " + (user_year + 1).to_s + " tu avais " + (i + 2).to_s + " ans."
         end
     end

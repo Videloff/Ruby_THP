@@ -1,4 +1,4 @@
-puts "Quel age as-tu ?"
+puts "Quel âge as-tu ?"
 user_age = gets.chomp.to_i # 32 ans
 puts "-----"
 age = user_age
@@ -27,7 +27,7 @@ else
         if i >= 2
             puts "Il y a " + (x).to_s + " ans, tu avais " + (i).to_s + " ans."
         end
-        x = x - 1
+        x -= 1
         fin = i
     end
     puts "Aujourd'hui, tu as " + (fin+1).to_s + " ans."

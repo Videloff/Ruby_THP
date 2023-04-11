@@ -4,5 +4,5 @@ puts "-----"
 val = 2023 - user_year + 1
 (val).times do |i|
     puts user_year
-    user_year = user_year + 1
+    user_year += 1
 end

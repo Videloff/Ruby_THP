@@ -1,4 +1,4 @@
-puts "Quel age as-tu ?"
+puts "Quel âge as-tu ?"
 user_age = gets.chomp.to_i # 32 ans
 puts "-----"
 age = user_age
@@ -32,7 +32,7 @@ else
         if (0 + i) == (user_age - i)
             puts "Il y a " + i.to_s + " ans, tu avais la moitié de l'âge que tu as aujourd'hui"
         end
-        x = x - 1
+        x -= 1
         fin = i
     end
     puts "Aujourd'hui, tu as " + (fin+1).to_s + " ans."
